@@ -1,5 +1,10 @@
 # Perch Data MCP
 
+[![smithery badge](https://smithery.ai/badge/perchdata/perch-data)](https://smithery.ai/servers/perchdata/perch-data)
+
+Listed on Smithery: [perchdata/perch-data](https://smithery.ai/servers/perchdata/perch-data) ·
+also in the official MCP registry as `io.github.101NUTS/perch-data`.
+
 Six data tools for AI agents, served as MCP tools through Apify's hosted MCP server.
 There is no server to install: point your MCP client at the URL below and sign in with
 your own Apify account (OAuth) or pass your Apify API token. Runs are billed to your
