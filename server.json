@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.101NUTS/perch-data",
+  "title": "Perch Data",
+  "description": "Six Apify actors: prediction-market weather data, tennis odds, Nashville permits, kitchen takeoffs.",
+  "repository": {
+    "url": "https://github.com/101NUTS/perchdata-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/perchpermits",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=fetch-actor-details,get-actor-output,perchpermits/kalshi-weather-markets-nws,perchpermits/polymarket-weather-markets-stations,perchpermits/tennis-matches-odds-form,perchpermits/nashville-building-permits,perchpermits/kitchen-floor-plan-takeoff,perchpermits/apify-store-trends",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Apify API token as 'Bearer <token>'. Optional if your MCP client supports OAuth.",
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
